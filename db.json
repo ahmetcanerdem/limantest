@@ -1,0 +1,19 @@
+{
+    "name": "Test",
+    "publisher": "Administrator",
+    "version": "0.0.1",
+    "version_code": 2,
+    "database": [],
+    "widgets": [],
+    "language": "php",
+    "status": 0,
+    "service": null,
+    "supportedLiman": "1.9.4",
+    "support": "administrator@liman.dev",
+    "icon": "cat",
+    "display_name": "Test",
+    "require_key": "false",
+    "verification": null,
+    "dependencies": null,
+    "sslPorts": null
+}
