@@ -29,6 +29,11 @@
             <i class="fas fa-tasks"></i> {{ __("Sandbox Elemanları") }}
         </a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" onclick="tabtest()" href="#tabtest" data-toggle="tab">
+            <i class="fas-solid fa-alien"></i> {{ __("Tab Test") }}
+        </a>
+    </li>
 </ul>
 
 <div class="tab-content">
@@ -50,6 +55,9 @@
 
     <div id="sandbox" class="tab-pane">
         @include('sandbox.main')
+    </div>
+    <div id="tabtest" class="tab-pane">
+        @include('tabtest.main')
     </div>
 </div>
 @endsection

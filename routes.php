@@ -19,5 +19,9 @@ return [
     "run_script" => "RunScriptController@run",
 
     // TaskView
-    "example_task" => "TaskViewController@run"
+    "example_task" => "TaskViewController@run",
+
+    // TabTest
+    "tab1_test" => "TabTestController@tab1",
+    "tab2_test" => "TabTestController@tab2"
 ];
