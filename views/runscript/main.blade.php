@@ -1,9 +1,7 @@
 <div class="row">
     <div class="col-12">
-        <b>{{ __("Betik çıktısı") }}:</b>
-        <div id="python_script">
-
-        </div>
+    <button class="btn btn-primary mb-2" onclick="runScript()">Python scriptini çalıştır</button>
+        <div id="python_script"></div>
     </div>
 </div>
 

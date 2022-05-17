@@ -15,7 +15,7 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" onclick="runScript()" href="#runScript" data-toggle="tab">
+        <a class="nav-link" href="#runScript" data-toggle="tab">
             <i class="fab fa-python"></i> {{ __("Python Betiği") }}
         </a>
     </li>
