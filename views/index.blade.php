@@ -31,7 +31,12 @@
     </li>
     <li class="nav-item">
         <a class="nav-link" onclick="tabtest()" href="#tabtest" data-toggle="tab">
-            <i class="fas-solid fa-alien"></i> {{ __("Tab Test") }}
+            <i class="fas fa-tasks"></i> {{ __("Tab Test") }}
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#weather" data-toggle="tab">
+        <i class="fa-solid fa-bolt"></i> {{ __("Weather") }}
         </a>
     </li>
 </ul>
@@ -58,6 +63,9 @@
     </div>
     <div id="tabtest" class="tab-pane">
         @include('tabtest.main')
+    </div>
+    <div id="weather" class="tab-pane">
+        @include('weather.main')
     </div>
 </div>
 @endsection

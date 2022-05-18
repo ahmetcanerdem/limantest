@@ -23,5 +23,8 @@ return [
 
     // TabTest
     "tab1_test" => "TabTestController@tab1",
-    "tab2_test" => "TabTestController@tab2"
+    "tab2_test" => "TabTestController@tab2",
+
+    // Weather
+    "get_weather" => "WeatherController@get"
 ];
